@@ -178,7 +178,7 @@ class Panel extends React.Component {
         let newarray = this.state.array.filter((num, index) => index !== i);
         for (let j = i; j < newarray.length; j++)
             newarray[j].left = 110 * (j + 1);
-        this.setState({ array: newarray,  });
+        this.setState({ sort: false ,  array: newarray,  });
     }
     print() {
         let viewsarray = [];
