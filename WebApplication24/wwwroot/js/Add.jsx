@@ -384,7 +384,7 @@ class Panel extends React.Component {
                     this.setState({ label: 'Сортировка завершена', sort: true });
                     break
                 };
-                if (i == (this.state.array.length - 1)) {
+                if (i == (this.state.array.length - 2)) {
                     this.setState({ label: 'Сортировка завершена', sort: true });
                     break
                 }
